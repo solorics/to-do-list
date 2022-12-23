@@ -1,12 +1,18 @@
-import _ from 'lodash';
+import './style.css';
+import add, { createList } from './app.js';
 
- function component() {
-   const element = document.createElement('div');
+createList();
 
-  // Lodash, now imported by this script
-   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+// Add an event
+const inputChange = document.querySelector('#input');
 
-   return element;
- }
-
- document.body.appendChild(component());
+inputChange.addEventListener('keypress', (event) => {
+  if (event.key === 'Enter') {
+    if (inputChange.value === '') {
+      alert('Kindy dont add empty tasks');
+    } else {
+      add(inputChange.value);
+      inputChange.value = '';
+    }
+  }
+});
