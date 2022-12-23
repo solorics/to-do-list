@@ -105,8 +105,7 @@ Just run npm i to install all dependencies
 **Solorics**
 
 - GitHub: [@githubhandle](https://github.com/solorics)
-- Twitter: [@twitterhandle](https://twitter.com/Lee06785586)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/leehaney-george-0a4a51178/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/solomon-opeyemi-0427a6155/)
 
 
 Contributions, issues, and feature requests are welcome!
