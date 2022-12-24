@@ -4,7 +4,7 @@
   "description": "<a name=\"readme-top\"></a>",
   "private": "true",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist",
     "build": "webpack"
   },
   "repository": {
@@ -12,12 +12,12 @@
     "url": "git+https://github.com/solorics/to-do-list.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Solorics",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/solorics/to-do-list/issues"
   },
-  "homepage": "https://github.com/solorics/to-do-list#readme",
+  "homepage": "https://solorics.github.io/to-do-list",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
@@ -34,6 +34,7 @@
   },
   "dependencies": {
     "css-loader": "^6.7.3",
+    "gh-pages": "^4.0.0",
     "lodash": "^4.17.21",
     "style-loader": "^3.3.1"
   }
