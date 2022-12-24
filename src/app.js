@@ -16,6 +16,7 @@ window.deleteItem = () => {
       } else {
         const spli = list.splice(index, 1);
         console.log(spli);
+        // eslint-disable-next-line no-use-before-define
         createList();
       }
     });

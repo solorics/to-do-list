@@ -67,6 +67,7 @@
   border-bottom: 1px solid gray;
   height: 50px;
   padding: 0 0.8rem;
+  justify-content: space-around;
 }
 
 #complete {
