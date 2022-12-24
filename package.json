@@ -5,7 +5,9 @@
   "private": "true",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -17,12 +19,13 @@
   "bugs": {
     "url": "https://github.com/solorics/to-do-list/issues"
   },
-  "homepage": "https://github.com/solorics/to-do-list#readme",
+  "homepage": "https://solorics.github.io/to-do-list",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.26.0",
+    "gh-pages": "^4.0.0",
     "hint": "^7.1.3",
     "html-webpack-plugin": "^5.5.0",
     "stylelint": "^13.13.1",
