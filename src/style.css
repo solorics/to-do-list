@@ -160,3 +160,7 @@
 .nodisp {
   display: inline;
 }
+
+.fa-ellipsis-v {
+  display: none;
+}
