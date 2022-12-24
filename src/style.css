@@ -15,6 +15,15 @@
 
 .fa {
   color: gray !important;
+
+  /* font: normal normal normal 14px/1 FontAwesome; */
+  font-size: 14px;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-left: -1em;
+  display: ruby-base-container;
 }
 
 #class-box {
@@ -150,4 +159,8 @@
 
 .nodisp {
   display: inline;
+}
+
+.fa-ellipsis-v {
+  display: none;
 }
